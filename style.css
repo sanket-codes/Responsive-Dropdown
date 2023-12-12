@@ -1,0 +1,59 @@
+body {
+  background-color: white;
+  /* background-attachment: fixed; */
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  font-family: "Rethink Sans", sans-serif;
+}
+
+.mdiv {
+  display: flex;
+  justify-content: center;
+}
+
+.mlist {
+  cursor: context-menu;
+  margin-bottom: 10px;
+}
+
+.appearance {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  /* border: 1px solid; */
+  border-radius: 5px;
+  padding-inline: 50px;
+  padding-block: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 24px 4px #e2ebf0;
+}
+.appearance:hover {
+  background-color: rgba(143, 152, 157, 0.6);
+}
+
+img {
+  margin-right: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+ul {
+  padding: 0px;
+}
+
+.downIco {
+  margin-left: 20px;
+  padding: 0px;
+}
+
+/* .downIco:hover {
+  filter: invert(1);
+} */
+
+.rotation {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
